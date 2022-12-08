@@ -73,9 +73,9 @@ Illumina has a proprietary software that goes through all the images captured in
 If there are any ambiguities, e.g. at a certain cycle the image for a cluster does not have a distinct color that can be associated with a specific nucleotide, the base calling software will have a low probability associated with it and would assign an "N" instead of "A", "T", "G" or "C".
 
 In closing,
+- Number of clusters ~= Number of reads
+- Number of sequencing cycles = Length of reads
 
-Number of clusters ~= Number of reads
-Number of sequencing cycles = Length of reads
 The number of cycles (length of the reads) will depend on sequencing platform used as well as your preferences.
 
 NOTE. If you want to explore sequencing by synthesis in more depth, we recommend this really nice animation available on Illumina's YouTube channel.
@@ -92,7 +92,6 @@ NOTE: The workflow presented in this lesson is specific to Illumina sequencing, 
 Pacific Biosciences: http://www.pacb.com/
 Oxford Nanopore (MinION): https://nanoporetech.com/
 10X Genomics: https://www.10xgenomics.com/
-Advantages and disadvantages of these technologies can be explored in the table below:
 
 
 # **Experimental planning considerations** *i.e. don't spend thousands in something that won't work*
